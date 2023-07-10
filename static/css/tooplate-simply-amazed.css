@@ -71,20 +71,20 @@ a:focus {
 /* <<< btn-primary >>> */
 .btn-primary {
   color: #fff;
-  background-color: #099140;
+  background-color: #356ba2;
   border-color: transparent;
 }
 
 .btn-primary.active, .btn-primary:active, .btn-primary.focus, .btn-primary:focus, .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover, .btn-primary:hover {
   color: #fff;
-  background-color: #64ed6b;
+  background-color: #99ccff;
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
 }
 
 .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active {
-  background-color: #64ed6b;
+  background-color: #99ccff;
   border-color: transparent;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -118,7 +118,7 @@ a:focus {
 .form-control:-ms-input-placeholder { color: white; }
 
 .form-control:focus {
-  border-bottom: 1px solid #099140;
+  border-bottom: 1px solid #356ba2;
   outline: 0;
   -webkit-box-shadow: none;
   box-shadow: none;
@@ -157,7 +157,7 @@ textarea.form-control {
   right: 0;
   width: 26%;
   height: 100%;
-  background-color: #099140;
+  background-color: #356ba2;
   overflow-y: auto;
   z-index: 1;
   display: -webkit-box;
@@ -194,7 +194,7 @@ textarea.form-control {
   text-decoration: none;
 }
 
-.design a:hover { color: #64ed6b; }
+.design a:hover { color: #99ccff; }
 
 /* <<< Mobile Menu button >>> */
 .navbar-button {
@@ -249,7 +249,7 @@ textarea.form-control {
   opacity: 1;
   width: 25px;
   height: 3px;
-  background-color: #64ed6b;
+  background-color: #6699cc;
   margin: 0 auto;
   left: 0;
   -webkit-transition: all 0.25s ease-in-out;
@@ -397,7 +397,7 @@ textarea.form-control {
 .navbar .navbar-nav > .nav-item.current-menu-ancestor > a.dropdown-toggle {
   background-color: transparent;
   outline: 0;
-  color: #64ed6b;
+  color: #99ccff;
   transition: all 0.3s ease;
 }
 
@@ -408,7 +408,7 @@ textarea.form-control {
   padding: 0;
 }
 
-.navbar .navbar-nav > .nav-item > a.nav-link.current { color: #64ed6b; }
+.navbar .navbar-nav > .nav-item > a.nav-link.current { color: #99ccff; }
 
 .navbar .navbar-nav > .nav-item > a.nav-link.dropdown-toggle::after {
   content: '';
@@ -483,7 +483,7 @@ textarea.form-control {
 .navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item.current-menu-ancestor > a.dropdown-toggle {
   font-weight: 500;
   color: #fff;
-  background-color: #64ed6b;
+  background-color: lightblue;
 }
 
 .navbar .navbar-nav > .nav-item ul.dropdown-menu .nav-item:hover > a.dropdown-toggle::after {
@@ -521,7 +521,7 @@ textarea.form-control {
     left: 0;
     min-width: 250px;
     display: none;
-    background-color: #099140;
+    background-color: dodgerblue;
   }
   /**:: Second Dropdown ::**/
   .navbar .navbar-collapse ul ul li {
@@ -536,7 +536,7 @@ textarea.form-control {
     left: 100%;
     min-width: 250px;
     display: none;
-    background-color: #64ed6b;
+    background-color: aqua;
   }
   /**:: Third Dropdown ::**/
   .navbar .navbar-collapse ul ul ul li {
@@ -612,12 +612,12 @@ textarea.form-control {
 .banner-section {
   position: relative;
   text-align: center;
-  background-color: #64ed6b;
+  background-color: #99ccff;
   padding-top: 121px;
   align-items: flex-start;
 }
 
-.bg-blue-transparent { background-color: rgb(9, 145, 64); }
+.bg-blue-transparent { background-color: rgb(102 153 204 / 0.8); }
 
 .banner-section .logo-fa {  
   color: #fff;
@@ -689,7 +689,7 @@ textarea.form-control {
   padding-top: 90px!important;
   padding-bottom: 90px!important;
   min-height: 850px;
-  background-color: #64ed6b;
+  background-color: #6699cc;
 }
 
 .work-section .container { max-width: 1242px; }
@@ -779,7 +779,7 @@ textarea.form-control {
   margin: 0;
   max-width: 200px;
 	height: auto;
-	background: #64ed6b;
+	background: #3085a3;
 	text-align: center;
 	cursor: pointer;
 }
@@ -846,7 +846,7 @@ textarea.form-control {
 }
 
 .gallery-section {
-  background-color: #64ed6b;
+  background-color: #99ccff;
 }
 
 .gallery-section .title {
@@ -940,7 +940,7 @@ figure.effect-julia:hover p {
   .gallery-section .title { margin-bottom: 40px; }
 }
 
-.gallery-section .title h2 { color: #099140; }
+.gallery-section .title h2 { color: #006699; }
 .gallery-section .slick-list { margin-bottom: 40px; }
 
 .gallery-section .item {
@@ -954,7 +954,7 @@ figure.effect-julia:hover p {
 }
 
 .gallery-section .slick-dots li {
-  background-color: #64ed6b;
+  background-color: #6699cc;
   width: 20px;
   height: 20px;
   border-radius: 100%;
@@ -964,13 +964,13 @@ figure.effect-julia:hover p {
 
 .gallery-section .slick-dots li.slick-active,
 .gallery-section .slick-dots li:hover {
-  background-color: #099140;
+  background-color: #006699;
 }
 
 .gallery-section .slick-dots li button { display: none; }
 
 .contact-section {
-  background-color: #64ed6b;
+  background-color: #6699cc;
   flex-direction: column;
   justify-content: center;
 }
